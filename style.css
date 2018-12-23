@@ -1,0 +1,5 @@
+body {
+	background-image: page-background.svg;
+	background-attachment: fixed;
+	background-size: cover;
+}
