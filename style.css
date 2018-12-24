@@ -1,5 +1,130 @@
+
 body {
-	background-image: url(page-background.svg);
-	background-attachment: fixed;
-	background-size: cover;
+  color:#0a5d7a;
+  font-family: embury-text, serif;
+  background-attachment: fixed;
+  background-image: url(page-background-vertical.svg);
+  background-size: cover;
+	text-shadow: 2px 2px 12px rgba(255, 255, 255, 0.9);
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.logo-box {
+  padding: 6vh 0 9vh 0;
+}
+
+.pad-box {
+  padding: 10vh 0 2vh 0;
+
+}
+
+.margin-box {
+  margin: 10vh auto 2vh auto;
+}
+
+
+h1, h2, h3, p {
+  margin-top: .1em;
+  margin-bottom: .1em;
+}
+
+	h1 {
+  	font-size: 1.5em;
+	}
+	
+	h2 {
+  	font-size: 1.1em;
+	}
+
+.title-box-wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.caps {
+  font-size: .6em;
+  text-transform: uppercase;
+}
+
+.title-box {
+  width: 100%;
+	text-align: center;
+	margin: 0 auto;
+  vertical-align: middle;
+	border-radius: 110px;
+	display: block;
+}
+
+.title-box-title {
+  display: block;
+}
+
+.title-box-topic {
+  display: block;
+}
+
+.title-box-text {
+  width: 100%;
+	margin: 0 auto;
+  vertical-align: middle;
+}
+
+.title-box-quote {
+  max-width: 450px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+.content {
+  text-align: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.6);
+  height: 278px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 278px;
+  border: 1px solid #fff;
+  border-radius: 140px;
+  display: table;
+  position: relative;
+}
+
+.card-text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.footer {
+  font-size: 80%;
+  text-align: center;
+}
+
+@media (min-width: 737px) {
+  
+  body {
+  	background-image: url(page-background-horizontal.svg);
+	}
+	
+	h1 {
+  	font-size: 2.3em;
+	}
+	h2 {
+  	font-size: 1.6em;
+	}
+.caps {
+  font-size: .7em;
+  text-transform: uppercase;
+}
+  .pad-box {
+    padding: 10vh 0 5vh 0;
+  
+  }
+  
+  .margin-box {
+    margin: 10vh auto 5vh auto;
+  }
+
 }
