@@ -4,7 +4,7 @@ body {
   font-family: embury-text, serif;
   background-attachment: fixed;
   background-image: url(page-background-vertical.svg);
-  background-size: cover;
+  background-size: 737px 100%;
 	text-shadow: 2px 2px 12px rgba(255, 255, 255, 0.9);
   font-size: 1em;
   line-height: 1.5;
