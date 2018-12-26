@@ -5,32 +5,50 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" href="https://use.typekit.net/qmc0ums.css">
   <meta name="viewport" content="width=device-width"> 
+  <script src="ScrollTrigger.min.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function(){
+    var trigger = new ScrollTrigger();
+  });
+  </script>  
 </head>
 	
-<body>
-
-  <div class="title-box-wrapper">
-    <div class="title-box pad-box">
-      <div class="logo-box">
-        <img src="electric.svg" width="100px">
+<body class="bg-color">
+  
+  <div class="cover">
+  
+    <div class="title-box-wrapper">
+      <div class="title-box pad-box">
+        <div class="logo-box">
+          <img src="electric.svg" width="100px">
+        </div>
+        <span class="title-box-text">
+          <span class="title-box-title">
+            <p class="caps">UX Victoria Presents</p>
+          	<h1>Lightning Talks</h1>
+          	<p class="caps">3rd Edition | April 20th, 2019</p>
+          </span>
+  
+        </span>
       </div>
-      <span class="title-box-text">
-        <span class="title-box-title">
-          <p class="caps">UX Victoria Presents</p>
-        	<h1>Lightning Talks</h1>
-        	<p class="caps">April 20th, 2019</p>
-        </span>
-        <span class="title-box-topic pad-box">
-        <p class="caps">On the subject of</p>
-        <h2>"Craftsmanship"</h2>
-        <p class="title-box-quote">Craftsmanship names an enduring, basic human impulse, the desire to do a job well for its own sake.</p>
-        </span>
-      </span>
     </div>
+  
+    <div class="title-box-topic pad-box">
+      <p class="caps">5 minute musings on the subject of</p>
+      <h2>"Craftsmanship"</h2>
+      <p class="title-box-quote">
+        Craftsmanship names an enduring, basic human impulse, the 
+        desire to do a job well for its own sake.</p>
+    </div>
+    
+    <div class="arrow-box animated" data-scroll="">
+      <img src="arrow.svg" width="20px">
+    </div>
+  
   </div>
   
-  <div class="content">
-    <div class="card margin-box">
+  <div class="content" data-sequence="500">
+    <div class="animated card margin-box" data-scroll="once">
       <div class="card-text">
         <div class="card-img">
           <img src="idea.svg" width="80px">
@@ -39,7 +57,7 @@
         <p>Awesome! <br><a href="#link">Let's talk</a>.</p>
       </div>
     </div>
-    <div class="card margin-box">
+    <div class="animated card margin-box" data-scroll="once">
       <div class="card-text">
         <div class="card-img">
           <img src="location.svg" width="60px">
@@ -49,7 +67,7 @@
         <p>Location TBA</p>
       </div>
     </div>
-    <div class="card margin-box">
+    <div class="animated card margin-box" data-scroll="once">
       <div class="card-text">
         <div class="card-img">
           <img src="team.svg" width="80px">
