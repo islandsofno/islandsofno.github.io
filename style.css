@@ -2,17 +2,19 @@
 body {
   color:#fff;
   font-family: embury-text, serif;
-  background-attachment: fixed;
-  background-size: auto auto;
+  background-attachment:scroll;
+  background-size: cover;
   font-size: 1em;
   line-height: 1.5;
-  background-color: #f10357;
+  background-image: url(tower.jpg);
+  background-position: center top;
 }
 
 a {
   color: #fff;
 }
 
+/*
 .bg-color {
   background:
     -webkit-linear-gradient(315deg, hsla(189.04, 90.74%, 48.29%, 1) 0%, hsla(189.04, 90.74%, 48.29%, 0) 70%),
@@ -25,6 +27,7 @@ a {
     linear-gradient(315deg, hsla(33.93, 92.04%, 47.4%, 1) 15%, hsla(33.93, 92.04%, 47.4%, 0) 80%),
     linear-gradient(245deg, hsla(334.76, 91.99%, 41.1%, 1) 100%, hsla(334.76, 91.99%, 41.1%, 0) 70%);
   }
+*/
 
 .logo-box {
   padding: 6vh 0 9vh 0;
